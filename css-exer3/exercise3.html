@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+	<head>
+		<link REL="StyleSheet" TYPE="text/css" HREF="form.css">
+	</head>
+	<body>	
+		<div class="container">
+			<div id="layout1"> 
+			<span class="set"> <p id ="info"> Email us at:</p> 
+			<p id ="info1">sales@vinsol.com</p>
+			<p id ="info2">Skype:</p>
+			<p id ="info1">Vinsol</p></span>
+			</div>
+
+			<p id="para1"> Please fill the below form</p>
+			<div id="layout2" class="myform">
+			<form id="form" name="form" method="post" action="index.html">
+
+			
+			<label>First Name</label>
+			<input type="text" name="name" id="name" />
+
+			<label>Last Name</label>
+			<input type="text" name="name" id="last" />
+
+			<label>Email Address </label>
+			<input type="text" name="email" id="email" />
+
+			<label>Password </label>
+			<input type="text" name="password" id="password" /><br/>
+
+			<label>Gender </label>
+			
+			<input type="radio" name=gender value="yes" CHECKED>Male 
+			<input type="radio" name=gender value="no" > Female <br/> 
+		
+			<label>Date of Birth </label>
+			<select id="daydropdown">
+			<option>DD</option> <option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option></select> 
+			<select id="monthdropdown">
+			<option>MM</option> <option>January</option> <option>February</option> <option>March</option> <option>April</option> </select> 
+			<select id="yeardropdown">
+			<option>YY</option> <option>2007</option> <option>2008</option> <option>2009</option> <option>2010</option> </select> <br/>
+			<br/><label>Address </label>
+			<textarea name="address" id="address"></textarea>
+
+			<button type="submit">Submit Details</button>
+			<div class="spacer"></div>
+
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
+
